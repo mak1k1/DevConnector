@@ -1,4 +1,6 @@
 {
     "mongoURI": "mongodb+srv://mohan:kokot123@socialnetwork-jin7f.mongodb.net/test?retryWrites=true&w=majority",
-    "jwtSecret": "pozemstan"
+    "jwtSecret": "pozemstan",
+    "githubClientId": "8507436034a4a77913b8",
+    "githubSecret": "df373b425cd5faf3bfc04e2279595e005ad77660"
 }
