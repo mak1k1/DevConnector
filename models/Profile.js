@@ -1,10 +1,10 @@
 const mongoose = require('mongoose');
 
 const ProfileSchema = new mongoose.Schema({
-    user:{
+    user: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'user'
-    }, 
+    },
     company: {
         type: String
     },
@@ -28,7 +28,7 @@ const ProfileSchema = new mongoose.Schema({
     githubusername: {
         type: String
     },
-    experiences: [{
+    experience: [{
         title: {
             type: String,
             required: true
@@ -36,8 +36,8 @@ const ProfileSchema = new mongoose.Schema({
         company: {
             type: String,
             required: true
-        }, 
-        lcation: {
+        },
+        location: {
             type: String,
         },
         from: {
@@ -51,7 +51,7 @@ const ProfileSchema = new mongoose.Schema({
             type: Boolean,
             default: false
         },
-        status: {
+        description: {
             type: String
         },
     }],
